@@ -4,4 +4,3 @@ Pillow
 pydub
 moviepy
 yt-dlp
-re
