@@ -32,7 +32,7 @@ jobs:
         pyinstaller --onefile --noconsole --icon=resources/icon.ico main.py  # Build the app with PyInstaller
 
     - name: Upload executable as an artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: windows-latest
         path: dist/main.exe  # Path to the built executable
